@@ -1,0 +1,1 @@
+So. Yes. This is the official repository for TatkaTech. All code used in creating the site is available here. This README will definitely evolve as more and more code is added. For now this is nothing but a place to share the code powering TatkaTech.

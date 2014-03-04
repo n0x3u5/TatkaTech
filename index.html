@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TatkaTech - Latest Technology News, Gadget Reviews and Gaming News</title>
+<link rel="shortcut icon" 
+	href="favicon.ico" 
+    type="image/x-icon" />
+<link rel="icon" 
+      type="image/vnd.microsoft.icon" 
+      href="favicon.ico">
+<script src="scripts/jquery-1.10.2.min.js"></script>
+<script src="scripts/jquery.cycle2.min.js"></script>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+  <div id="header">
+  	<h1>TatkaTech - For the freshest in Tech</h1>
+    <a href="index.html"><img src="images/Logo_n0x_small.png" alt="TatkaTech - For the freshest in Tech" width="183" height="66" id="logo"></a>
+    <ul>
+      <li><a href="#">Hardware</a></li>
+      <li><a href="#">Software</a></li>
+      <li><a href="#">Gaming</a></li>
+      <li><a href="#">Gizmos</a></li>
+      <li><a href="#">Dive-In</a></li>
+    </ul>
+  </div>
+  <div id="separator">
+  	<hr/>
+  </div>
+  <div id="slide_container">
+    <!-- Placeholder for the slides. Small sized.
+    <div id="slide_img"><img src="images/Oculus_logo_white.jpg" width="517" height="302" alt="Oculus Rift Logo" title="Oculus Rift Logo"></div>
+    <div id="slide_desc"><h2>Oculus Rift Demystified</h2>
+      <p>We sort through all the hype surrounding the Rift and give you the facts.</p>
+    </div>-->
+    <!--Trying out the Cycle 2 slider using the overlat functionality offered. Could not customise the look f the overlay text.
+    <div class="cycle-slideshow"
+    	data-cycle-fx="scrollHorz"
+        data-cycle-speed="600"
+        data-cycle-prev="#prev"
+        data-cycle-next="#next"
+        data-cycle-timeout="3500"
+        data-cycle-manual-fx="scrollHorz"
+        data-cycle-manual-speed="300">
+        <div class="cycle-overlay"></div>
+    	<img src="images/sample1L.jpg"
+        	data-cycle-title="Tresdin, the Legion Commander"
+            data-cycle-desc="We check out the newly added hero in Valve's latest update patch to Dota 2"
+            height="500" width="960">
+    	<img src="images/sample2L.jpg"
+        	data-cycle-title="Looking Back: The Last of Us"
+            data-cycle-desc="We sit down and look back at one of the most impressive AAA game of the last year."
+            height="500" width="960">
+    	<img src="images/sample3L.jpg"
+        	data-cycle-title="Oculus Rift Demystified"
+            data-cycle-desc="We sort through all the hype surrounding the Rift and give you the facts."
+            height="500" width="960">
+	</div>
+    <div class="center">
+    	<a href=# id="prev">Prev</a> 
+    	<a href=# id="next">Next</a>
+	</div>-->
+    <!--Trying out Cycle 2 slider using composite tags. Simpler. Not necessarily better.-->
+    <div class="cycle-slideshow composite-example" 
+    data-cycle-fx="scrollHorz" 
+    data-cycle-slides="> .cycle-panels"
+    data-cycle-pause-on-hover="true"
+    data-cycle-timeout="3000"
+    data-cycle-speed="600"
+    data-cycle-manual-fx="scrollHorz"
+    data-cycle-manual-speed="300">
+        <div class="cycle-pager"></div>
+        <div class="cycle-prev"></div>
+	    <div class="cycle-next"></div>
+    	<div class="cycle-panels">
+        	<img src="images/sample1L.jpg" width="960" height="500" alt="New DOTA 2 Hero - Tresdin, the Legion Commander">
+          <div class="cycle-overlay">
+        		<div class="cycle-overlay-title">
+        		  <h2><a href="#">Tresdin, the Legion Commander</a></h2>
+   		  	  </div>
+            	<div class="cycle-overlay-desc"><p><a href="#">We check out the newly added hero in Valve's latest update patch to Dota 2.</a></p></div>
+            </div>
+    	</div>
+        <div class="cycle-panels">
+      	 	<img src="images/sample2L.jpg" width="960" height="500" alt="Looking back at The Last of Us">
+          <div class="cycle-overlay">
+      	 		<div class="cycle-overlay-title">
+      	 		  <h2><a href="#">Looking Back: The Last of Us</a></h2>
+ 		  	  </div>
+         		<div class="cycle-overlay-desc"><p><a href="#">We sit down and look back at one of the most impressive AAA game of the last year.</a></p></div>
+            </div>
+    	</div>
+        <div class="cycle-panels">
+          	<img src="images/sample3L.jpg" width="960" height="500" alt="Demystifying the Oculus Rift">
+          <div class="cycle-overlay">
+        		<div class="cycle-overlay-title">
+        		  <h2><a href="#">Oculus Rift Demystified</a></h2>
+   		  	  </div>
+	            <div class="cycle-overlay-desc"><p><a href="#">We sort through all the hype surrounding the Rift and give you the facts.</a></p></div>
+            </div>
+    	</div>
+	</div>
+  </div>
+  <div id="recent_container">
+    <div class="recent">
+      <div class="recent_img"><a href="#"><img src="images/Samsung-Galaxy-S5-small.jpg" width="139" height="108" alt="Samsung Galaxy S5" title="Samsung Galaxy S5"></a></div>
+      <div class="recent_desc">
+        <h2><a href="#">News and rumors about the Galaxy S5</a></h2>
+        <p>Get the latest buzz about Samsung's much hyped next flag ship smartphone - The Samsung Galaxy S5.</p>
+      </div>
+    </div>
+    <div class="recent">
+      <div class="recent_img"><a href="#"><img src="images/ios-7-logo-s.jpg" width="139" height="108" alt="iOS 7 Logo" title="iOS 7 Logo"></a></div>
+      <div class="recent_desc">
+        <h2><a href="#">Dive In: iOS 7 for the Power User</a></h2>
+        <p>Think you've spent time enough with the lates iOS to know all of its nitty-gritty aspects? Think again.</p>
+      </div>
+    </div>
+    <div class="recent">
+      <div class="recent_img"><a href="#"><img src="images/G_2013_review_s.jpg" width="139" height="108" alt="Games of 2013 in Review" title="Games of 2013 in Review"></a></div>
+      <div class="recent_desc">
+        <h2><a href="#">The Year 2013 in Gaming</a></h2>
+        <p>With the year coming to an end we take you through the year's hurrahs and its boo-hoos.</p>
+      </div>
+    </div>
+    <div class="recent">
+      <div class="recent_img"><a href="#"><img src="images/OSs.jpg" width="139" height="108" alt="Operating System" title="Operating System"></a></div>
+      <div class="recent_desc">
+        <h2><a href="#">Dive In: What are Operating Systems?</a></h2>
+        <p>Find out what your PC/Smartphone/Tablet doesn't want you to know about itself.</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+  	<ul>
+  	  <li><a href="#">Contact Us</a></li>
+  	   <li><a href="#">Advertise with Us</a></li>
+    </ul>
+  	<div id="legal">
+   	  <p>Copyright 2013 TatkaTech. All Rights Reserved.</p>
+  	</div>
+  </div>
+</div>
+</body>
+</html>
